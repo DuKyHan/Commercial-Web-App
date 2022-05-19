@@ -11,8 +11,8 @@ In this website we have two basic modules. The first is customers’side and fro
 - Customers are used to purchasing things from physical stores, such as supermarkets. It requires customers to physically visit businesses and walk around different shopping shelves, as well as shop owners to stock, display, and move the items requested by customers and the above activities all cost labor and money to operate.<
 - Moreover, The expansion of the Covid-19 pandemic has resulted in many changes in our lifestyles; individuals are frightened to leave their houses, transportation has nearly ceased, and social isolation has become increasingly widespread.<br>
 To overcome that problem our team decided to create an online book selling website to both save labor cost, everyone can buy without moving.
-Images/videos of similar topics:
-Team got so far:
+**Images/videos of similar topics:<br>
+**Team got so far:<br>
 **Features:**<br>
   - primary feature: CRUD (creat, read, update, delete)
   - secondaty feature: vote
