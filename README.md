@@ -4,7 +4,7 @@ Reason: We are in love with books thus we would build the book store to contain 
 
 We use reactjs to build frontend and mysql to create backend. they are connected by react-router library. And many support library are material-iu(mui), bootstrap. 
 Modern tool to create top site.
-**Describe topic:**<space><space>
+**Describe topic:**<br>
 <space>In is project, our team decided to creating a E-Commerce website, inparticularly this website name Book Master. This is a website which helps clients makes an easy and convinient way to buy and sell books online. Book Master is an interactive e-commerce solution providing users which an opportunity to buy and sell books.<space>
 <space>In this website we have two basic modules. The first is customers’side and from admin’side. The customer can do some basic query that related to book like: search, sell, buy….And admin can access to admin page on the website to change everything as they want and have the ability to add, delete and upload any information regarding the books.<space>
 **<space>Motivation why our team chose this topic:<space>**
