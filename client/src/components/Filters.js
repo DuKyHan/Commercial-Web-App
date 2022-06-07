@@ -1,4 +1,5 @@
-import { Button, Form } from "react-bootstrap";
+import { Button, Form, FormControl, Navbar } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
 import { CartState } from "../context/Context";
 import Rating from "./Rating";
 
@@ -16,9 +17,9 @@ const Filters = () => {
       <span>
         <Form.Check
           inline
-          label="Ascending"
+          label="From Low Price to High Price"
           name="group1"
-          type="radio"
+          type="checkbox"
           id={`inline-1`}
           onChange={() =>
             productDispatch({
@@ -32,9 +33,9 @@ const Filters = () => {
       <span>
         <Form.Check
           inline
-          label="Descending"
-          name="group1"
-          type="radio"
+          label="From High Price to Low Price"
+          name="group2"
+          type="checkbox"
           id={`inline-2`}
           onChange={() =>
             productDispatch({
@@ -48,7 +49,7 @@ const Filters = () => {
       <span>
         <Form.Check
           inline
-          label="Include Out of Stock"
+          label="Out of Stock"
           name="group1"
           type="checkbox"
           id={`inline-3`}
@@ -76,28 +77,24 @@ const Filters = () => {
         />
       </span>
       <span>
-        <label style={{ paddingRight: 10 }}>Rating: </label>
-        <Rating
-          rating={byRating}
-          onClick={(i) =>
-            productDispatch({
-              type: "FILTER_BY_RATING",
-              payload: i + 1,
-            })
-          }
-          style={{ cursor: "pointer" }}
-        />
+        {useLocation().pathname.split("/")[1] !== "cart" && (
+          <Navbar.Text className="search">
+            <FormControl
+              style={{ width: 300 }}
+              type="search"
+              placeholder="Search a product..."
+              className="m-auto"
+              aria-label="Search"
+              onChange={(e) => {
+                productDispatch({
+                  type: "FILTER_BY_SEARCH",
+                  payload: e.target.value,
+                });
+              }}
+            />
+          </Navbar.Text>
+        )}
       </span>
-      <Button
-        variant="light"
-        onClick={() =>
-          productDispatch({
-            type: "CLEAR_FILTERS",
-          })
-        }
-      >
-        Clear Filters
-      </Button>
     </div>
   );
 };

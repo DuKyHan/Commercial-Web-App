@@ -37,3 +37,13 @@ export const productReducer = (state, action) => {
       return state;
   }
 };
+export const customerReducer = (state, action) => {
+  switch (action.type) {
+    case "LOGIN":
+      return { loginState: true };
+    case "LOG OUT":
+      return { loginState: false };
+    default:
+      return state;
+  }
+};
