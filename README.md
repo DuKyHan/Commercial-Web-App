@@ -50,9 +50,9 @@ To overcome that problem our team decided to create an online book selling websi
 ## References:
   - Link of references code we base on: https://www.youtube.com/watch?v=HptuMAUaNGk&t=2738s
   - Link of references:
-    --https://www.javatpoint.com/
-    --https://www.w3schools.com/
-    --https://getbootstrap.com/
-    --https://stackoverflow.com/
-    --https://reactjs.org/
-    --https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh
+    -https://www.javatpoint.com/ </br>
+    -https://www.w3schools.com/ </br>
+    -https://getbootstrap.com/ </br>
+    -https://stackoverflow.com/ </br>
+    -https://reactjs.org/ </br>
+    -https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh </br>
