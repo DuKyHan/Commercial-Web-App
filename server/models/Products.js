@@ -25,6 +25,11 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     },
   });
+  Products.associate = (models) => {
+    Products.hasMany(models.Orders, {
+      onDelete: "cascade",
+    });
+  };
 
   return Products;
 };

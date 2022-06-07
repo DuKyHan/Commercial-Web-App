@@ -8,6 +8,8 @@ const db = require("./models");
 
 const postProducts = require("./routes/products.js");
 app.use("/product", postProducts);
+const postAccount = require("./routes/account.js");
+app.use("/user", postAccount);
 
 db.sequelize.sync().then(() => {
   app.listen(3001, () => {

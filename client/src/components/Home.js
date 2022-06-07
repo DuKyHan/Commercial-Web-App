@@ -23,7 +23,7 @@ const Home = () => {
     if (!byStock) {
       sortedProducts = sortedProducts.filter((prod) => prod.inStock);
     }
-    
+
     if (byFastDelivery) {
       sortedProducts = sortedProducts.filter((prod) => prod.fastDelivery);
     }

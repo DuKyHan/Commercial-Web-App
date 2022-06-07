@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-  const Account = sequelize.define("Accounts", {
+  const Accounts = sequelize.define("Accounts", {
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -13,9 +13,6 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     },
   });
-  //findAll{ where :{id: iduser}}
-  // findOne
-  // destroy{}
-  //
-  return Account;
+
+  return Accounts;
 };

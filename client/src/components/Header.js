@@ -12,6 +12,8 @@ import {
 import { Link, useLocation } from "react-router-dom";
 import { CartState } from "../context/Context";
 import "./styles.css";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const Header = () => {
   const {
@@ -19,35 +21,53 @@ const Header = () => {
     dispatch,
     productDispatch,
   } = CartState();
-
+  const { userState } = CartState();
+  const [login, setLogin] = useState(userState);
+  useEffect(() => {
+    setLogin(userState);
+  }, [userState]);
   return (
-    <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
+    <Navbar variant="dark" style={{ height: 80, backgroundColor: "#FAE8E0" }}>
       <Container>
-        <Navbar.Brand>
-          <Link to="/">Shopping Cart</Link>
-        </Navbar.Brand>
-        {useLocation().pathname.split("/")[1] !== "cart" && (
-          <Navbar.Text className="search">
-            <FormControl
-              style={{ width: 500 }}
-              type="search"
-              placeholder="Search a product..."
-              className="m-auto"
-              aria-label="Search"
-              onChange={(e) => {
-                productDispatch({
-                  type: "FILTER_BY_SEARCH",
-                  payload: e.target.value,
-                });
-              }}
-            />
-          </Navbar.Text>
+        {login ? (
+          <>
+            <Navbar.Text>
+              <Link to="/">
+                <div className="xinyuna">Login</div>
+              </Link>
+            </Navbar.Text>
+            <Navbar.Text>
+              <Link to="/register">
+                <div className="xinyuna">Sign up</div>
+              </Link>
+            </Navbar.Text>
+          </>
+        ) : (
+          <p>no</p>
         )}
+        {/* <Navbar.Text>
+          <Link to="/">
+            <div className="xinyuna">Login</div>
+          </Link>
+        </Navbar.Text>
+        <Navbar.Text>
+          <Link to="/register">
+            <div className="xinyuna">Sign up</div>
+          </Link>
+        </Navbar.Text> */}
+        <Navbar.Brand>
+          <Link to="/home">
+            <div className="xinyuna">xinyuna</div>
+          </Link>
+        </Navbar.Brand>
+
         <Nav>
           <Dropdown alignRight>
-            <Dropdown.Toggle variant="success">
-              <FaShoppingCart color="white" fontSize="25px" />
-              <Badge>{cart.length}</Badge>
+            <Dropdown.Toggle className="dropdown">
+              <FaShoppingCart color="black" fontSize="25px" />
+              <Badge color="black">
+                <p style={{ color: "black" }}>{cart.length}</p>
+              </Badge>
             </Dropdown.Toggle>
 
             <Dropdown.Menu style={{ minWidth: 370 }}>
