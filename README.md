@@ -16,6 +16,9 @@ To overcome that problem our team decided to create an online book selling websi
     <img src="https://user-images.githubusercontent.com/71269151/172293117-5e350fbb-f905-47a4-8144-42677ddb6bf1.png"/> </br>
   - Filter: <img src="https://user-images.githubusercontent.com/71269151/172293129-0d8cd870-9cba-4068-a735-9651175ddb20.png"/> </br>
 **Team got so far:**<br>
+  - We have designed some features that similar of above website: <img src="https://user-images.githubusercontent.com/71269151/172293875-7ac77c69-aadf-4c28-af7f-3287ceb1e3c9.png"/> </br>
+  - Filter:  <img src="https://user-images.githubusercontent.com/71269151/172293913-f18fcca2-b206-4a4b-87ca-7602159042bc.png"/> </br>
+  - Adding to the cart: <img src="https://user-images.githubusercontent.com/71269151/172293929-198a1a2b-744e-4409-aae5-ee00c32e81d8.png"/> </br>
 ## Features:
   -	Our website has some primary features that an e-commerce website must have like: Searching products, Adding to cart, Filter, Delete, Login, Logout
   -	Moreover, our website also have some secondary features such as: Rating, comment.
