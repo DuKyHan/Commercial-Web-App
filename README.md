@@ -11,7 +11,7 @@
 To overcome that problem our team decided to create an online book selling website to both save labor cost, everyone can buy without moving.<br>
 
 **Images/videos of similar topics:**<br>
-  - We have designed based on an existing e-commerce site called https://www.snapdeal.com/. And there are some pics of this web: (https://user-images.githubusercontent.com/71269151/172287484-5c0abd65-1c0d-4f70-8449-77f74bc678bd.png)
+  - We have designed based on an existing e-commerce site called https://www.snapdeal.com/. And there are some pics of this web: <img src="https://user-images.githubusercontent.com/71269151/172287484-5c0abd65-1c0d-4f70-8449-77f74bc678bd.png"/>
 **Team got so far:**<br>
 ## Features:
   -	Our website has some primary features that an e-commerce website must have like: Searching products, Adding to cart, Filter, Delete, Login, Logout
