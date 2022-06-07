@@ -47,7 +47,7 @@ To overcome that problem our team decided to create an online book selling websi
   - Use cases design diagram:</br>
     <img src="https://user-images.githubusercontent.com/71269151/172438208-a6bb2d6e-f401-476e-8e5d-c74eb0a1ce09.png"/> </br>
   - Database design diagram: </br>
-    <img src="https://user-images.githubusercontent.com/71269151/172439192-a5db7311-a098-449f-b6a5-c27d90dc2c5c.png"/> </br>
+    <img src="https://user-images.githubusercontent.com/71269151/172439563-1f2e9495-6d39-462b-aeb1-eb28e239ea3f.png"/> </br>
 ## References:
   - Link of references code we base on: https://www.youtube.com/watch?v=HptuMAUaNGk&t=2738s
   - Link of references: </br>
