@@ -40,16 +40,16 @@ To overcome that problem our team decided to create an online book selling websi
   - Backend online host includes a centralized 	database resident on the server, the script which is built  in Nodejs and SQL query the database on user’s request for transaction of data.
   - The forms are made using HTML, Bootstrap for designing and Nodejs, sql for backend. Java script used for client side scripting and Nodejs for the server side development.
 ## Task:
-  - Trương Duy Khang(leader): Main coder ( Back end, creating Database, and connect)
-  - Vũ Bá Hưng: Support for make front end(Css, HTMl), Readme file
-  - Trần Hữu Nhật: Draw all diagram, Make the reports
+  - Trương Duy Khang(leader): Main coder ( Back end, creating Database, and connect), make report
+  - Vũ Bá Hưng: Support for make front end(Css, HTMl), Readme file, make report
+  - Trần Hữu Nhật: Draw all diagram, Make the report
 ## Diagrams:
   - Use cases design diagram:
   - Database design diagram:
   - Interface design diagram:
 ## References:
   - Link of references code we base on: https://www.youtube.com/watch?v=HptuMAUaNGk&t=2738s
-  - Link of references:
+  - Link of references: </br>
     -https://www.javatpoint.com/ </br>
     -https://www.w3schools.com/ </br>
     -https://getbootstrap.com/ </br>
