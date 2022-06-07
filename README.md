@@ -16,7 +16,7 @@ To overcome that problem our team decided to create an online book selling websi
   -	Moreover, our website also have some secondary features such as: Rating, comment.
 
 ## Laguages and Library:
-**Technologies Used:**</br>
+  **Technologies Used:**</br>
   - HTML
   - CSS
   - Bootstrap
@@ -24,9 +24,20 @@ To overcome that problem our team decided to create an online book selling websi
   - Java script
   - Jquery
   - Mysql (database) </br>
-**Technical details:**</br>
+  **Technical details:**</br>
   - Front end is designed using HTML, CSS  and Bootstrap. Java script used to perform client side scripting 
   - Back end is based on Nodejs and MySql based RDB( Relational Data Base) model.
   - The Sql queries are run using the CI SQL library function
   - Backend online host includes a centralized 	database resident on the server, the script which is built  in Nodejs and SQL query the database on user’s request for transaction of data.
   - The forms are made using HTML, Bootstrap for designing and Nodejs, sql for backend. Java script used for client side scripting and Nodejs for the server side development.
+## Task:
+  - Trương Duy Khang(leader): Main coder ( Back end, creating Database, and connect)
+  - Vũ Bá Hưng: Support for make front end(Css, HTMl), Readme file
+  - Trần Hữu Nhật: Draw all diagram, Make the reports
+## Diagrams:
+  - Use cases design diagram:
+  - Database design diagram:
+  - Interface design diagram:
+## References:
+  - Link of github:
+  - Link of references:
