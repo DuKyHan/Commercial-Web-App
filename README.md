@@ -11,7 +11,7 @@
 To overcome that problem our team decided to create an online book selling website to both save labor cost, everyone can buy without moving.<br>
 
 **Images/videos of similar topics:**<br>
-  - We have designed based on an existing e-commerce site called https://www.snapdeal.com/. And there are some pics of this web:
+  - We have designed based on an existing e-commerce site called https://www.snapdeal.com/. And there are some pics of this web:https://github.com/DuKyHan/Commercial-Web-App/issues/5#issue-1262660548
       
 **Team got so far:**<br>
 ## Features:
