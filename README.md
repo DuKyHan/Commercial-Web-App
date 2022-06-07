@@ -12,7 +12,9 @@ To overcome that problem our team decided to create an online book selling websi
 
 **Images/videos of similar topics:**<br>
   - We have designed based on an existing e-commerce site called https://www.snapdeal.com/. And there are some pics of this web: <img src="https://user-images.githubusercontent.com/71269151/172287484-5c0abd65-1c0d-4f70-8449-77f74bc678bd.png"/>
-  - Adding to cart:
+  - Adding to cart: <img src="https://user-images.githubusercontent.com/71269151/172293082-4167fb83-4228-4916-b02a-908a68e27a5f.png"/> </br>
+    <img src="https://user-images.githubusercontent.com/71269151/172293117-5e350fbb-f905-47a4-8144-42677ddb6bf1.png"/> </br>
+  - Filter: <img src="https://user-images.githubusercontent.com/71269151/172293129-0d8cd870-9cba-4068-a735-9651175ddb20.png"/> </br>
 **Team got so far:**<br>
 ## Features:
   -	Our website has some primary features that an e-commerce website must have like: Searching products, Adding to cart, Filter, Delete, Login, Logout
