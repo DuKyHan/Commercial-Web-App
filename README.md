@@ -11,6 +11,7 @@
 To overcome that problem our team decided to create an online book selling website to both save labor cost, everyone can buy without moving.<br>
 **Images/videos of similar topics:**<br>
 **Team got so far:**<br>
-**Features:**<br>
-  - primary feature: CRUD (creat, read, update, delete)
-  - secondaty feature: vote
+##Features:
+  -	Our website has some primary features that an e-commerce website must have like: Searching products, Adding to cart, Filter, Delete, Login, Logout
+  -	Moreover, our website also have some secondary features such as: Rating, comment.
+
