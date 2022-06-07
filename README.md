@@ -15,3 +15,18 @@ To overcome that problem our team decided to create an online book selling websi
   -	Our website has some primary features that an e-commerce website must have like: Searching products, Adding to cart, Filter, Delete, Login, Logout
   -	Moreover, our website also have some secondary features such as: Rating, comment.
 
+## Laguages and Library:
+**Technologies Used:**</br>
+  - HTML
+  - CSS
+  - Bootstrap
+  - Nodejs
+  - Java script
+  - Jquery
+  - Mysql (database)
+ **Technical details:** </br>
+  - Front end is designed using HTML, CSS  and Bootstrap. Java script used to perform client side scripting 
+  - Back end is based on Nodejs and MySql based RDB( Relational Data Base) model.
+  - The Sql queries are run using the CI SQL library function
+  - Backend online host includes a centralized 	database resident on the server, the script which is built  in Nodejs and SQL query the database on user’s request for transaction of data.
+  - The forms are made using HTML, Bootstrap for designing and Nodejs, sql for backend. Java script used for client side scripting and Nodejs for the server side development.
