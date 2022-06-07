@@ -16,9 +16,11 @@ To overcome that problem our team decided to create an online book selling websi
     <img src="https://user-images.githubusercontent.com/71269151/172293117-5e350fbb-f905-47a4-8144-42677ddb6bf1.png"/> </br>
   - Filter: <img src="https://user-images.githubusercontent.com/71269151/172293129-0d8cd870-9cba-4068-a735-9651175ddb20.png"/> </br>
 **Team got so far:**<br>
-  - We have designed some features that similar of above website: <img src="https://user-images.githubusercontent.com/71269151/172293875-7ac77c69-aadf-4c28-af7f-3287ceb1e3c9.png"/> </br>
-  - Filter:  <img src="https://user-images.githubusercontent.com/71269151/172293913-f18fcca2-b206-4a4b-87ca-7602159042bc.png"/> </br>
-  - Adding to the cart: <img src="https://user-images.githubusercontent.com/71269151/172293929-198a1a2b-744e-4409-aae5-ee00c32e81d8.png"/> </br>
+  - We have designed some features that similar of above website: 
+  - Login page: <img src="https://user-images.githubusercontent.com/71269151/172400758-1e82f624-9c37-4de8-8568-0cd299a819ee.png"/> </br>
+  - After Login:  <img src="https://user-images.githubusercontent.com/71269151/172400790-854e59e6-0374-474d-b1d3-5070306ceab0.png"/> </br>
+  - Adding product to the cart: <img src="https://user-images.githubusercontent.com/71269151/172401014-b922aa3f-bb3a-474c-b6cd-d51a300c54ae.png"/> </br>
+    <img src="https://user-images.githubusercontent.com/71269151/172400803-5590339f-5192-49b3-b589-5c3c48b042c6.png"/> </br>
 ## Features:
   -	Our website has some primary features that an e-commerce website must have like: Searching products, Adding to cart, Filter, Delete, Login, Logout
   -	Moreover, our website also have some secondary features such as: Rating, comment.
@@ -46,5 +48,11 @@ To overcome that problem our team decided to create an online book selling websi
   - Database design diagram:
   - Interface design diagram:
 ## References:
-  - Link of similar website:
+  - Link of references code we base on: https://www.youtube.com/watch?v=HptuMAUaNGk&t=2738s
   - Link of references:
+    --https://www.javatpoint.com/
+    --https://www.w3schools.com/
+    --https://getbootstrap.com/
+    --https://stackoverflow.com/
+    --https://reactjs.org/
+    --https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh
