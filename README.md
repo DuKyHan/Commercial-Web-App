@@ -2,7 +2,7 @@
 
 ## Describe the idea
 **Describe topic:**<br>
-- In is project, our team decided to creating a E-Commerce website, inparticularly this website name Shopping Cart. This is a website which helps clients makes an easy and convinient way to buy and sell their products. Shopping Cart is an interactive e-commerce solution providing users which an opportunity to buy and sell.
+- In this project, our team decided to creating a E-Commerce website, inparticularly this website name Shopping Cart. This is a website which helps clients makes an easy and convinient way to buy and sell their products. Shopping Cart is an interactive e-commerce solution providing users which an opportunity to buy and sell.
 - In this website we have two basic modules. The first is customers’side and from admin’side. The customer can do some basic query that related to book like: search, sell, buy….And admin can access to admin page on the website to change everything as they want and have the ability to add, delete and upload any information regarfing the products.</br>
 
 **Motivation why our team chose this topic:**<br>
@@ -30,7 +30,6 @@ To overcome that problem our team decided to create an online book selling websi
   - Bootstrap
   - Nodejs
   - Java script
-  - Jquery
   - Mysql (database) </br>
   #### Technical details:</br>
   - Front end is designed using HTML, CSS  and Bootstrap. Java script used to perform client side scripting 
