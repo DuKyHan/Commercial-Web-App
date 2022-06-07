@@ -24,7 +24,7 @@ To overcome that problem our team decided to create an online book selling websi
   - Java script
   - Jquery
   - Mysql (database) </br>
- **Technical details:** </br>
+**Technical details:**</br>
   - Front end is designed using HTML, CSS  and Bootstrap. Java script used to perform client side scripting 
   - Back end is based on Nodejs and MySql based RDB( Relational Data Base) model.
   - The Sql queries are run using the CI SQL library function
