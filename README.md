@@ -45,8 +45,9 @@ To overcome that problem our team decided to create an online book selling websi
   - Trần Hữu Nhật: Draw all diagram, Make the report
 ## Diagrams:
   - Use cases design diagram:
+    <img src="https://user-images.githubusercontent.com/71269151/172438208-a6bb2d6e-f401-476e-8e5d-c74eb0a1ce09.png"/> </br>
   - Database design diagram:
-  - Interface design diagram:
+  
 ## References:
   - Link of references code we base on: https://www.youtube.com/watch?v=HptuMAUaNGk&t=2738s
   - Link of references: </br>
