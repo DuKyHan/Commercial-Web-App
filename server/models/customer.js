@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-  const Customer = sequelize.define("Customers", {
+  const Customers = sequelize.define("Customers", {
     customer_name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -17,6 +17,14 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     },
   });
+  Customers.associate = (models) => {
+    Customers.hasMany(models.Orders, {
+      onDelete: "cascade",
+    });
+    Customers.hasOne(models.Accounts, {
+      onDelete: "cascade",
+    });
+  };
 
-  return Customer;
+  return Customers;
 };

@@ -1,10 +1,10 @@
 module.exports = (sequelize, DataTypes) => {
-  const Status = sequelize.define("Statuses", {
+  const Statuses = sequelize.define("Statuses", {
     status: {
       type: DataTypes.STRING,
       allowNull: false,
     },
   });
 
-  return Status;
+  return Statuses;
 };
